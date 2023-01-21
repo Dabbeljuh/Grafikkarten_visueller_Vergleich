@@ -1,0 +1,254 @@
+{
+    "rx6600": {
+        "performance": 74,
+        "price": [
+            269.0,
+            279.0,
+            281.21,
+            281.68,
+            291.09
+        ],
+        "avg_price": 280,
+        "price_per_performance": 3.78
+    },
+    "rx6600xt": {
+        "performance": 85,
+        "price": [
+            343.97,
+            390.72,
+            398.95,
+            398.99,
+            407.89
+        ],
+        "avg_price": 388,
+        "price_per_performance": 4.56
+    },
+    "rx6650xt": {
+        "performance": 91,
+        "price": [
+            309.0,
+            319.0,
+            319.0,
+            329.0,
+            330.51
+        ],
+        "avg_price": 321,
+        "price_per_performance": 3.53
+    },
+    "rx6700xt": {
+        "performance": 112,
+        "price": [
+            399.0,
+            409.0,
+            439.0,
+            439.0,
+            439.0
+        ],
+        "avg_price": 425,
+        "price_per_performance": 3.79
+    },
+    "rx6800": {
+        "performance": 134,
+        "price": [
+            569.0,
+            579.0,
+            595.0,
+            659.0,
+            679.99
+        ],
+        "avg_price": 616,
+        "price_per_performance": 4.6
+    },
+    "rx6800xt": {
+        "performance": 157,
+        "price": [
+            679.99,
+            689.0,
+            743.89,
+            849.0,
+            889.98
+        ],
+        "avg_price": 770,
+        "price_per_performance": 4.9
+    },
+    "rx6900xt": {
+        "performance": 165,
+        "price": [
+            799.0,
+            924.0,
+            929.0,
+            934.62,
+            947.88
+        ],
+        "avg_price": 907,
+        "price_per_performance": 5.5
+    },
+    "rx6950xt": {
+        "performance": 167,
+        "price": [
+            799.0,
+            889.0,
+            926.83,
+            955.0,
+            970.62
+        ],
+        "avg_price": 908,
+        "price_per_performance": 5.44
+    },
+    "rx7900xt": {
+        "performance": 184,
+        "price": [
+            944.0,
+            969.0,
+            979.0,
+            979.0,
+            989.0
+        ],
+        "avg_price": 972,
+        "price_per_performance": 5.28
+    },
+    "rx7900xtx": {
+        "performance": 211,
+        "price": [
+            1199.0,
+            1199.0,
+            1199.0,
+            1249.0,
+            1249.0
+        ],
+        "avg_price": 1219,
+        "price_per_performance": 5.78
+    },
+    "rtx3060": {
+        "performance": 82,
+        "price": [
+            323.99,
+            333.9,
+            334.9,
+            335.65,
+            338.9
+        ],
+        "avg_price": 333,
+        "price_per_performance": 4.06
+    },
+    "rtx3060ti": {
+        "performance": 106,
+        "price": [
+            413.99,
+            429.22,
+            435.0,
+            439.0,
+            439.88
+        ],
+        "avg_price": 431,
+        "price_per_performance": 4.07
+    },
+    "rtx3070": {
+        "performance": 116,
+        "price": [
+            547.01,
+            547.42,
+            550.0,
+            559.0,
+            559.0
+        ],
+        "avg_price": 552,
+        "price_per_performance": 4.76
+    },
+    "rtx3070ti": {
+        "performance": 124,
+        "price": [
+            649.0,
+            660.99,
+            669.0,
+            669.0,
+            674.02
+        ],
+        "avg_price": 664,
+        "price_per_performance": 5.35
+    },
+    "rtx3080": {
+        "performance": 139,
+        "price": [
+            799.0,
+            819.0,
+            846.99,
+            857.0,
+            858.99
+        ],
+        "avg_price": 836,
+        "price_per_performance": 6.01
+    },
+    "rtx3080ti": {
+        "performance": 157,
+        "price": [
+            1309.37,
+            1319.0,
+            1391.58,
+            1399.0,
+            1399.9
+        ],
+        "avg_price": 1364,
+        "price_per_performance": 8.69
+    },
+    "rtx3090": {
+        "performance": 159,
+        "price": [
+            1249.0,
+            1372.58,
+            1399.0,
+            1450.0,
+            1499.0
+        ],
+        "avg_price": 1394,
+        "price_per_performance": 8.77
+    },
+    "rtx3090ti": {
+        "performance": 168,
+        "price": [
+            1450.0,
+            1549.0,
+            1595.0,
+            1899.0,
+            1899.0
+        ],
+        "avg_price": 1678,
+        "price_per_performance": 9.99
+    },
+    "rtx4070ti": {
+        "performance": 177,
+        "price": [
+            898.99,
+            898.99,
+            899.0,
+            899.0,
+            899.0
+        ],
+        "avg_price": 899,
+        "price_per_performance": 5.08
+    },
+    "rtx4080": {
+        "performance": 209,
+        "price": [
+            1299.0,
+            1309.49,
+            1329.0,
+            1329.0,
+            1329.0
+        ],
+        "avg_price": 1319,
+        "price_per_performance": 6.31
+    },
+    "rtx4090": {
+        "performance": 245,
+        "price": [
+            1879.0,
+            1888.44,
+            1899.0,
+            1899.0,
+            1899.0
+        ],
+        "avg_price": 1893,
+        "price_per_performance": 7.73
+    }
+}
