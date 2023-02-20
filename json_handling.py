@@ -30,7 +30,7 @@ def read_json_file(json_file):
     return data
 
 
-def get_gpu_list_names(json_file=json_today):
+def get_gpu_list_names(json_file=json_today) -> list:
     file = read_json_file(json_file)
     gpu_name_list = []
     for gpu in file:
@@ -38,7 +38,7 @@ def get_gpu_list_names(json_file=json_today):
     return gpu_name_list
 
 
-def get_gpu_list_names_with_no_prices(json_file=json_today):
+def get_gpu_list_names_with_no_prices(json_file=json_today) -> list:
     file = read_json_file(json_file)
     gpu_name_list = []
     for gpu in file:
@@ -47,7 +47,7 @@ def get_gpu_list_names_with_no_prices(json_file=json_today):
     return gpu_name_list
 
 
-def get_price_list_for_gpu(gpu, json_file=json_today):
+def get_price_list_for_gpu(gpu, json_file=json_today) -> float | str:
     file = read_json_file(json_file)
     if gpu in file:
         return file[gpu]['price']
@@ -55,7 +55,7 @@ def get_price_list_for_gpu(gpu, json_file=json_today):
         return 'gpu not in json file'
 
 
-def set_json_prices(gpu, price, json_file=json_today):
+def set_json_prices(gpu, price, json_file=json_today) -> None:
     data = read_json_file(json_file)
     # TODO: more or less than 5 prices? and if handle it here or somewhere else
     if gpu in data and len(data[gpu]['price']) != 5:
@@ -159,3 +159,4 @@ def get_sorted_list_by_price_per_performance_by_gpu_name_cheapest_price(json_fil
 
 
 #generate_new_json_for_today()
+#update_avg_price_and_price_per_performance()

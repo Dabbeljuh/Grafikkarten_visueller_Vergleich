@@ -1,0 +1,275 @@
+{
+    "rx6600": {
+        "name": "AMD Radeon RX 6600",
+        "performance": 74,
+        "price": [
+            267.0,
+            269.99,
+            272.56,
+            273.31,
+            275.99
+        ],
+        "avg_price": 272,
+        "price_per_performance": 3.68
+    },
+    "rx6600xt": {
+        "name": "AMD Radeon RX 6600 XT",
+        "performance": 85,
+        "price": [
+            327.96,
+            329.0,
+            380.97,
+            389.0,
+            389.04
+        ],
+        "avg_price": 363,
+        "price_per_performance": 4.27
+    },
+    "rx6650xt": {
+        "name": "AMD Radeon RX 6650 XT",
+        "performance": 91,
+        "price": [
+            299.71,
+            317.05,
+            326.85,
+            329.0,
+            329.89
+        ],
+        "avg_price": 320,
+        "price_per_performance": 3.52
+    },
+    "rx6700xt": {
+        "name": "AMD Radeon RX 6700 XT",
+        "performance": 112,
+        "price": [
+            399.0,
+            402.69,
+            410.39,
+            411.67,
+            414.95
+        ],
+        "avg_price": 408,
+        "price_per_performance": 3.64
+    },
+    "rx6800": {
+        "name": "AMD Radeon RX 6800",
+        "performance": 134,
+        "price": [
+            549.0,
+            622.9,
+            624.0,
+            625.0,
+            630.0
+        ],
+        "avg_price": 610,
+        "price_per_performance": 4.55
+    },
+    "rx6800xt": {
+        "name": "AMD Radeon RX 6800 XT",
+        "performance": 157,
+        "price": [
+            624.0,
+            625.0,
+            649.0,
+            664.94,
+            679.0
+        ],
+        "avg_price": 648,
+        "price_per_performance": 4.13
+    },
+    "rx6900xt": {
+        "name": "AMD Radeon RX 6900 XT",
+        "performance": 165,
+        "price": [
+            729.0,
+            841.28,
+            882.55,
+            882.56,
+            883.22
+        ],
+        "avg_price": 844,
+        "price_per_performance": 5.12
+    },
+    "rx6950xt": {
+        "name": "AMD Radeon RX 6950 XT",
+        "performance": 167,
+        "price": [
+            799.0,
+            818.99,
+            821.76,
+            939.0,
+            999.0
+        ],
+        "avg_price": 876,
+        "price_per_performance": 5.25
+    },
+    "rx7900xt": {
+        "name": "AMD Radeon RX 7900 XT",
+        "performance": 184,
+        "price": [
+            889.0,
+            899.0,
+            899.0,
+            899.0,
+            939.0
+        ],
+        "avg_price": 905,
+        "price_per_performance": 4.92
+    },
+    "rx7900xtx": {
+        "name": "AMD Radeon RX 7900 XTX",
+        "performance": 211,
+        "price": [
+            1149.0,
+            1149.0,
+            1178.0,
+            1179.98,
+            1188.0
+        ],
+        "avg_price": 1169,
+        "price_per_performance": 5.54
+    },
+    "rtx3060": {
+        "name": "NVIDIA RTX 3060",
+        "performance": 82,
+        "price": [
+            328.0,
+            328.0,
+            329.0,
+            329.0,
+            334.98
+        ],
+        "avg_price": 330,
+        "price_per_performance": 4.02
+    },
+    "rtx3060ti": {
+        "name": "NVIDIA RTX 3060 TI",
+        "performance": 106,
+        "price": [
+            428.0,
+            429.0,
+            429.0,
+            432.15,
+            434.4
+        ],
+        "avg_price": 431,
+        "price_per_performance": 4.07
+    },
+    "rtx3070": {
+        "name": "NVIDIA RTX 3070",
+        "performance": 116,
+        "price": [
+            522.82,
+            545.0,
+            547.9,
+            548.0,
+            549.0
+        ],
+        "avg_price": 543,
+        "price_per_performance": 4.68
+    },
+    "rtx3070ti": {
+        "name": "NVIDIA RTX 3070 TI",
+        "performance": 124,
+        "price": [
+            588.75,
+            599.0,
+            599.0,
+            606.99,
+            631.46
+        ],
+        "avg_price": 605,
+        "price_per_performance": 4.88
+    },
+    "rtx3080": {
+        "name": "NVIDIA RTX 3080",
+        "performance": 139,
+        "price": [
+            759.0,
+            771.99,
+            797.2,
+            799.0,
+            804.07
+        ],
+        "avg_price": 786,
+        "price_per_performance": 5.65
+    },
+    "rtx3080ti": {
+        "name": "NVIDIA RTX 3080 TI",
+        "performance": 157,
+        "price": [
+            1102.43,
+            1159.57,
+            1199.0,
+            1259.0,
+            1262.02
+        ],
+        "avg_price": 1196,
+        "price_per_performance": 7.62
+    },
+    "rtx3090": {
+        "name": "NVIDIA RTX 3090",
+        "performance": 159,
+        "price": [
+            1199.0,
+            1250.0,
+            1399.0,
+            1400.0,
+            1489.8
+        ],
+        "avg_price": 1348,
+        "price_per_performance": 8.48
+    },
+    "rtx3090ti": {
+        "name": "NVIDIA RTX 3090 TI",
+        "performance": 168,
+        "price": [
+            1250.0,
+            1399.0,
+            1549.0,
+            1785.0,
+            2331.1
+        ],
+        "avg_price": 1663,
+        "price_per_performance": 9.9
+    },
+    "rtx4070ti": {
+        "name": "NVIDIA RTX 4070 TI",
+        "performance": 177,
+        "price": [
+            899.0,
+            899.0,
+            899.0,
+            899.0,
+            909.0
+        ],
+        "avg_price": 901,
+        "price_per_performance": 5.09
+    },
+    "rtx4080": {
+        "name": "NVIDIA RTX 4080",
+        "performance": 209,
+        "price": [
+            1259.0,
+            1289.0,
+            1298.0,
+            1299.0,
+            1299.0
+        ],
+        "avg_price": 1289,
+        "price_per_performance": 6.17
+    },
+    "rtx4090": {
+        "name": "NVIDIA RTX 4090",
+        "performance": 245,
+        "price": [
+            1799.99,
+            1815.0,
+            1828.99,
+            1839.98,
+            1859.0
+        ],
+        "avg_price": 1829,
+        "price_per_performance": 7.47
+    }
+}
