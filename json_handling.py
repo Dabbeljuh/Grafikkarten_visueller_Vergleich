@@ -152,10 +152,3 @@ def get_sorted_list_by_price_per_performance_by_gpu_name_cheapest_price(json_fil
         sorted_gpu_dict[key] = value
 
     return sorted_gpu_dict
-
-# print(get_sorted_list_by_price_per_performance_by_gpu_name())
-# update_avg_price_and_price_per_performance()
-# TODO: save jsons in jsons folder and not here
-
-
-#generate_new_json_for_today()

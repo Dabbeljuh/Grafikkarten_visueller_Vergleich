@@ -20,10 +20,9 @@ def create_and_save_graph_average_price(json_file=json_today, show=True, save=Fa
 
     bar_width = 0.2
     fig, ax = plt.subplots(figsize=(15, 8))
-    # fig, ax = plt.subplots()
 
     ax.set_title("Cost Per Frame: 1440p Euro [" + json_today + "]\n" + "6 Games Average, Medium Quality Settings\n"
-                     + "Cost Per Frame                              Average FPS\n")
+                 + "Cost Per Frame                              Average FPS\n")
 
     for i in gpu_sorted_list:
         if i.startswith('rtx'):
@@ -82,11 +81,9 @@ def create_and_save_graph_cheapest_price(json_file=json_today, show=True, save=F
     gpu = read_json_file(json_file)
 
     style.use('seaborn-v0_8-dark')
-    # style.use('ggplot')
 
     bar_width = 0.2
     fig, ax = plt.subplots(figsize=(15, 8))
-    # fig, ax = plt.subplots()
 
     ax.set_title(
         "Cheapest Cost Per Frame: 1440p Euro [" + json_today + "]\n" + "6 Games Average, Medium Quality Settings\n"
@@ -100,7 +97,8 @@ def create_and_save_graph_cheapest_price(json_file=json_today, show=True, save=F
             pcolor = '#ED1C24'
             pppcolor = 'darkred'
         ax.barh(i + " " + str(gpu[i]['price'][0]) + " €", gpu[i]['performance'], color=pcolor)
-        ax.barh(i + " " + str(gpu[i]['price'][0]) + " €", gpu[i]['price'][0] / gpu[i]['performance'] * 10, color=pppcolor)
+        ax.barh(i + " " + str(gpu[i]['price'][0]) + " €", gpu[i]['price'][0] / gpu[i]['performance'] * 10,
+                color=pppcolor)
 
     rects = ax.patches
     for rect in rects:
@@ -141,7 +139,3 @@ def create_and_save_graph_cheapest_price(json_file=json_today, show=True, save=F
 
     if show:
         plt.show()
-
-
-
-create_and_save_graph_cheapest_price(save=True, show=True)
