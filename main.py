@@ -15,3 +15,5 @@ if __name__ == '__main__':
 # TODO: add performance metrics for 1080p, 1440p, 4k -> atm only 1440p
 # TODO: add more options for average price -> atm only the average of the 5 cheapest
 # TODO: fixing all typing (JSON typing??)
+
+# github testing
